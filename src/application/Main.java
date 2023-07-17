@@ -207,7 +207,7 @@ public class Main extends Application {
 	}
 
 	public void initialize() {
-		Image image1 = new Image("C:\\Users\\User\\Desktop\\Snd Semester\\COMP336 - Algorithms\\Project_3\\src\\application\\birzeit.jpg");
+		Image image1 = new Image("BZU_MAP\\src\\application\\birzeit.jpg");
 		ImageView imageView1 = new ImageView(image1);
 		imageView1.setFitHeight(mapHieght);
 		imageView1.setFitWidth(mapWidth);
@@ -215,7 +215,7 @@ public class Main extends Application {
 		root.getChildren().add(imageView1);
 		for (int i = 0; i < Colleges.size(); i++) {
 
-			Image buttonImage = new Image("C:\\Users\\User\\Desktop\\Snd Semester\\COMP336 - Algorithms\\Project_3\\src\\application");
+			Image buttonImage = new Image("BZU_MAP\\src\\application");
 			ImageView buttonImageView = new ImageView(buttonImage);
 			buttonImageView.setFitWidth(10);
 			buttonImageView.setFitHeight(10);
